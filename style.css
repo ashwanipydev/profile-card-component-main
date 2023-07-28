@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: hsl(0, 0%, 59%);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-shadow: 3px 5px 8px rgba(0,0,0,.6);
+    z-index: 5;
+    
+}
+
+.top__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#bg-pattern{
+    border-radius: 2rem 2rem 0 0;
+}
+
+#victor-pp{
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    margin-top: -15%;
+}
+
+.victor{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.victor__age{
+    font-size: 1.5rem;
+    color: hsl(227, 10%, 46%);
+}
+.victor__city{
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 2rem;
+}
+
+.flex-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: hsl(227, 71%, 73%);
+    margin-bottom: 2rem;
+}
+
+.activ{
+    text-align: center;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.activ p{
+    color: hsl(227, 10%, 46%);
+}
+
+.activ h3{
+    font-weight: 700;
+}
+
+
+
+  .carcel-image {
+    position: absolute;
+  }
+  
+  .top-left {
+
+    top: -500px;
+    left: -300px;
+  }
+  
+  .bottom-right {
+
+    bottom: -600px;
+    right: -300px;
+  }
+
+
+  @media (max-width: 700px){
+    .top-left {
+        top: -550px;
+        left: -700px;
+      }
+    .bottom-right {
+
+        bottom: -600px;
+        right: -700px;
+      }
+
+  }
